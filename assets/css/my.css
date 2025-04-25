@@ -1,0 +1,485 @@
+﻿.banner-area-two {
+  padding-bottom: 0px !important;
+}
+
+.banner-area-two .banner-img {
+  margin-top: 0px !important;
+}
+
+.banner-area-two .banner-content {
+  margin-top: 0px !important;
+}
+
+.home-carousel-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.owl-dots {
+  position: relative;
+  bottom: 75px !important;
+}
+
+.owl-dots button span {
+  background-color: rgb(255, 255, 255) !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: var(--main-color) !important;
+}
+
+.facilities-institutes ul li {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+.facilities-institutes ul li i {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.my-top-title {
+  color: var(--main-color);
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.page-title-area.bg-1 {
+  background-image: url(../images-knu/KNO_college_small.webp) !important;
+}
+
+.page-title-area.bg-2 {
+  background-image: url(../images-knu/krygystan/bishkek-1.jpg) !important;
+}
+.page-title-area::before {
+  background-color: #b52858 !important;
+}
+
+.page-title-area .page-title-content h2,
+.page-title-area .page-title-content ul li a {
+  color: aliceblue !important;
+}
+
+.page-title-area .page-title-content ul li::before {
+  background-color: aliceblue !important;
+}
+
+/* .filter-menu-items{
+    background-color: aqua;
+  } */
+
+.filter-menu-items a {
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--main-color);
+  padding: 7.5px 15px;
+  border-radius: 5px;
+  color: var(--main-color) !important;
+}
+.filter-menu-items a.mixitup-control-active {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+}
+
+.counter-area::before {
+  content: none !important;
+}
+
+.my-icon-box {
+  font-size: 80px;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 125px;
+
+}
+
+.my-icon-box.one {
+  background-color: #fffbca;
+}
+.my-icon-box.two {
+  background-color: #cbd4fa;
+}
+.my-icon-box.three {
+  background-color: #d6c8c8;
+}
+.my-icon-box.four {
+  background-color: #ffd6d6;
+}
+.my-icon-box.five {
+  background-color: #fff5d0;
+}
+.my-icon-box.six {
+  background-color: #c7eafa;
+}
+
+.my-icon-box img {
+  width: 70px;
+  height: auto;
+}
+.larger-text {
+  font-size: larger !important;
+}
+.x-large-text {
+  font-size: x-large !important;
+}
+.flaticon-img {
+  width: 15%;
+}
+
+.flaticon-sm-img {
+  width: 5%;
+}
+.text-pink{
+  color: var(--pink-color) !important;
+}
+.cta-btn {
+  color: #000 !important;
+  font-weight: 400;00;
+}
+.cta-btn:hover {
+  color: #fff !important;
+  
+  background-color: #000;
+}
+.btn-readmore {
+  background-color: var(--pink-color) !important;
+}
+.btn-readmore:hover {
+ background-color: var(--white-color) !important;
+}
+.carousel-indicators .active{
+  background-color: #b52858 !important;
+  border-color: #b52858 !important;
+}
+.img-rounded{
+  border-radius: 1rem!important;
+}
+.e12229-bg-color {
+  background-color: #e12229!important;
+}
+.bg-color-b52858{
+
+  background-color: #b52858!important;
+}
+.#fff-bg-color{
+
+}
+.mean-bar {
+  background-color: #b52858!important;
+}
+.carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+.font-size-lg{
+  font-size: larger;
+}
+.section-image{
+  height:393px !important;
+  width:100% !important;
+}
+.partners-log-div{
+  width: 180px;
+  height: auto;
+}
+.font-size-icons{
+  font-size: 2rem !important;
+}
+@media only screen and (max-width: 991px) {
+  .mobile-nav .logo {
+    top: 10px !important;
+    max-width: 200px !important;
+  }
+  #mobile-logo-text {
+    font-size: small !important;
+  }
+  .flaticon-img {
+    width: 10% !important;
+  }
+  .partners-log-div{
+  width: 160px;
+  height: auto;
+}
+}
+
+.banner-area-two {
+  padding-bottom: 0px !important;
+}
+
+.banner-area-two .banner-img {
+  margin-top: 0px !important;
+}
+
+.banner-area-two .banner-content {
+  margin-top: 0px !important;
+}
+
+.home-carousel-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.owl-dots {
+  position: relative;
+  bottom: 75px !important;
+}
+
+.owl-dots button span {
+  background-color: rgb(255, 255, 255) !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: var(--main-color) !important;
+}
+
+.facilities-institutes ul li {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+.facilities-institutes ul li i {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.my-top-title {
+  color: var(--main-color);
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.page-title-area.bg-1 {
+  background-image: url(../images-knu/KNO_college_small.webp) !important;
+}
+
+.page-title-area.bg-2 {
+  background-image: url(../images-knu/krygystan/bishkek-1.jpg) !important;
+}
+.page-title-area::before {
+  background-color: #b52858 !important;
+}
+
+.page-title-area .page-title-content h2,
+.page-title-area .page-title-content ul li a {
+  color: aliceblue !important;
+}
+
+.page-title-area .page-title-content ul li::before {
+  background-color: aliceblue !important;
+}
+
+/* .filter-menu-items{
+    background-color: aqua;
+  } */
+
+.filter-menu-items a {
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--main-color);
+  padding: 7.5px 15px;
+  border-radius: 5px;
+  color: var(--main-color) !important;
+}
+.filter-menu-items a.mixitup-control-active {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+}
+
+.counter-area::before {
+  content: none !important;
+}
+
+.my-icon-box {
+  font-size: 80px;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 125px;
+
+}
+
+.my-icon-box.one {
+  background-color: #fffbca;
+}
+.my-icon-box.two {
+  background-color: #cbd4fa;
+}
+.my-icon-box.three {
+  background-color: #d6c8c8;
+}
+.my-icon-box.four {
+  background-color: #ffd6d6;
+}
+.my-icon-box.five {
+  background-color: #fff5d0;
+}
+.my-icon-box.six {
+  background-color: #c7eafa;
+}
+
+.my-icon-box img {
+  width: 70px;
+  height: auto;
+}
+.larger-text {
+  font-size: larger !important;
+}
+.x-large-text {
+  font-size: x-large !important;
+}
+.flaticon-img {
+  width: 15%;
+}
+
+.flaticon-sm-img {
+  width: 5%;
+}
+.text-pink{
+  color: var(--pink-color) !important;
+}
+.cta-btn {
+  color: #000 !important;
+  font-weight: 400;00;
+}
+.cta-btn:hover {
+  color: #fff !important;
+  
+  background-color: #000;
+}
+.btn-readmore {
+  background-color: var(--pink-color) !important;
+}
+.btn-readmore:hover {
+ background-color: var(--white-color) !important;
+}
+.carousel-indicators .active{
+  background-color: #b52858 !important;
+  border-color: #b52858 !important;
+}
+.img-rounded{
+  border-radius: 1rem!important;
+}
+.e12229-bg-color {
+  background-color: #e12229!important;
+}
+.bg-color-b52858{
+
+  background-color: #b52858!important;
+}
+.#fff-bg-color{
+
+}
+.mean-bar {
+  background-color: #b52858!important;
+}
+.carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+.font-size-lg{
+  font-size: larger;
+}
+.section-image{
+  height:393px !important;
+  width:100% !important;
+}
+.partners-log-div{
+  width: 180px;
+  height: auto;
+}
+.font-size-icons{
+  font-size: 2rem !important;
+}
+.landing-page-banner{
+  position: relative;
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  background-image: url(../images-knu/Kno-2.jpg);
+}
+.lead-form input{
+  color: #000!important;
+}
+.lead-form input,.lead-form button{
+  border-radius: 25px!important;
+
+}
+.lead-form input:focus{
+border-color:var(--pink-color) !important ;
+color: black!important;
+
+}
+.lead-form button{
+background-color: var(--pink-color)!important;
+color: white;
+border-color:  var(--pink-color)!important;
+
+}
+.lead-form button:hover{
+background-color:black!important;
+color: white;
+border-color:  black;!important;
+}
+@media only screen and (max-width: 991px) {
+  .mobile-nav .logo {
+    top: 10px !important;
+    max-width: 200px !important;
+  }
+  #mobile-logo-text {
+    font-size: small !important;
+  }
+  .flaticon-img {
+    width: 10% !important;
+  }
+  .partners-log-div{
+  width: 160px;
+  height: auto;
+}
+}

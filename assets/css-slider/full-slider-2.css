@@ -1,0 +1,126 @@
+﻿/*=====  End of Full Slider-2  ======*/
+.full-slider-2 .carousel-control-next, .full-slider-2 .carousel-control-prev {
+  display: block;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  opacity: 1;
+  color: #333;
+  line-height: 50px;
+  font-size: 36px;
+}
+.full-slider-2 .carousel-control-prev {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.full-slider-2 .carousel-control-next {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.full-slider-2 .carousel-control-next-icon, .full-slider-2 .carousel-control-prev-icon {
+  background-image: none;
+  height: 40px;
+}
+.full-slider-2 .carousel-inner {
+  cursor: move;
+}
+.full-slider-2 .carousel-inner .carousel-item {
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+}
+.full-slider-2 .carousel-inner .carousel-item h2 {
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+.full-slider-2 .carousel-inner .carousel-item p {
+  font-size: 1rem;
+  margin: 10px 0 25px;
+}
+.full-slider-2 .carousel-inner .carousel-item::after {
+  background-color: rgba(0, 0, 0, 0.22);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.full-slider-2 .carousel-inner .carousel-item .carousel-caption {
+  bottom: 0;
+  left: 10%;
+  right: auto;
+  top: 0;
+}
+.full-slider-2 .carousel-inner .carousel-item .carousel-caption h2, .full-slider-2 .carousel-inner .carousel-item .carousel-caption p, .full-slider-2 .carousel-inner .carousel-item .carousel-caption .btn {
+  visibility: hidden;
+  opacity: 0;
+}
+.full-slider-2 .carousel-inner .carousel-item .carousel-caption .btn:after {
+  border-radius: 40px;
+  top: 100%;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.full-slider-2 .carousel-inner .carousel-item .carousel-caption .btn:hover:after {
+  top: 0;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  opacity: 1;
+  visibility: visible;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption h2, .full-slider-2 .carousel-inner .carousel-item.active .carousel-caption p, .full-slider-2 .carousel-inner .carousel-item.active .carousel-caption .btn {
+  visibility: visible;
+  opacity: 1;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.first-slide h2 {
+  animation: 1500ms ease-in-out 0s normal none 1 running bounceInDown;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.first-slide p {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.first-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running bounceInUp;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.second-slide h2 {
+  animation: 1500ms ease-in-out 0s normal none 1 running bounceInDown;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.second-slide p {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInRight;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.second-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running bounceInUp;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.third-slide h2 {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInRight;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.third-slide p {
+  animation: 1500ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.full-slider-2 .carousel-inner .carousel-item.active .carousel-caption.third-slide .btn {
+  animation: 1500ms ease-in-out 0s normal none 1 running bounceInUp;
+}
+.full-slider-2 .carousel-indicators {
+  bottom: 40px;
+}
+.full-slider-2 .carousel-indicators li {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  display: block;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.full-slider-2 .carousel-indicators li.active {
+  background-color: #ffffff;
+}
+
+/*=====  End of Full Slider-2  ======*/
